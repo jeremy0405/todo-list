@@ -25,6 +25,9 @@
 		1EF0292E280023A5001AA033 /* MainViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF0292D280023A5001AA033 /* MainViewControllerDelegate.swift */; };
 		1EF029672802AA62001AA033 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF029662802AA62001AA033 /* TitleView.swift */; };
 		1EF029692802CAE3001AA033 /* InspectorViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EF029682802CAE3001AA033 /* InspectorViewControllerDelegate.swift */; };
+		73602E7528050E0D0029E792 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73602E7428050E0D0029E792 /* CardData.swift */; };
+		73602E772805112B0029E792 /* URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73602E762805112B0029E792 /* URLSession.swift */; };
+		73602E7928051D180029E792 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73602E7828051D180029E792 /* DataManager.swift */; };
 		7380B0D927FFC84500B5D052 /* InspectorTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0D827FFC84500B5D052 /* InspectorTableViewDataSource.swift */; };
 		7380B0DB27FFC84F00B5D052 /* InspectorTableCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0DA27FFC84F00B5D052 /* InspectorTableCellData.swift */; };
 		7380B0DD27FFC85800B5D052 /* CALayer+addBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0DC27FFC85800B5D052 /* CALayer+addBorder.swift */; };
@@ -32,6 +35,8 @@
 		7380B0E127FFC87300B5D052 /* InspectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0E027FFC87300B5D052 /* InspectorTableViewCell.swift */; };
 		7380B0E727FFFE6600B5D052 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0E627FFFE6600B5D052 /* PopUpView.swift */; };
 		7380B0E928001EC500B5D052 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7380B0E828001EC500B5D052 /* Constant.swift */; };
+		73A166C2280661BE001E0299 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A166C1280661BE001E0299 /* HTTPMethod.swift */; };
+		73A166C628066719001E0299 /* ServerAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A166C528066719001E0299 /* ServerAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +60,9 @@
 		1EF0292D280023A5001AA033 /* MainViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerDelegate.swift; sourceTree = "<group>"; };
 		1EF029662802AA62001AA033 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		1EF029682802CAE3001AA033 /* InspectorViewControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectorViewControllerDelegate.swift; sourceTree = "<group>"; };
+		73602E7428050E0D0029E792 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		73602E762805112B0029E792 /* URLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSession.swift; sourceTree = "<group>"; };
+		73602E7828051D180029E792 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		7380B0D827FFC84500B5D052 /* InspectorTableViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectorTableViewDataSource.swift; sourceTree = "<group>"; };
 		7380B0DA27FFC84F00B5D052 /* InspectorTableCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectorTableCellData.swift; sourceTree = "<group>"; };
 		7380B0DC27FFC85800B5D052 /* CALayer+addBorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+addBorder.swift"; sourceTree = "<group>"; };
@@ -62,6 +70,8 @@
 		7380B0E027FFC87300B5D052 /* InspectorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InspectorTableViewCell.swift; sourceTree = "<group>"; };
 		7380B0E627FFFE6600B5D052 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		7380B0E828001EC500B5D052 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		73A166C1280661BE001E0299 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		73A166C528066719001E0299 /* ServerAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +146,7 @@
 		1E7432E527FD184E00B908E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				73602E7328050DB50029E792 /* Entity */,
 				1EF0292A28001B77001AA033 /* Delegate & DataSource */,
 				1E7432F427FD271A00B908E4 /* KanbanTableCellData.swift */,
 				7380B0DA27FFC84F00B5D052 /* InspectorTableCellData.swift */,
@@ -170,6 +181,18 @@
 				7380B0DC27FFC85800B5D052 /* CALayer+addBorder.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		73602E7328050DB50029E792 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				73602E7428050E0D0029E792 /* CardData.swift */,
+				73602E762805112B0029E792 /* URLSession.swift */,
+				73A166C528066719001E0299 /* ServerAPI.swift */,
+				73A166C1280661BE001E0299 /* HTTPMethod.swift */,
+				73602E7828051D180029E792 /* DataManager.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,23 +268,28 @@
 			files = (
 				1EF0292E280023A5001AA033 /* MainViewControllerDelegate.swift in Sources */,
 				7380B0E127FFC87300B5D052 /* InspectorTableViewCell.swift in Sources */,
+				73602E772805112B0029E792 /* URLSession.swift in Sources */,
 				7380B0DF27FFC86A00B5D052 /* InspectorViewController.swift in Sources */,
 				1E7432EF27FD26C600B908E4 /* KanbanTableViewCell.swift in Sources */,
 				7380B0E928001EC500B5D052 /* Constant.swift in Sources */,
 				7380B0DD27FFC85800B5D052 /* CALayer+addBorder.swift in Sources */,
+				73A166C628066719001E0299 /* ServerAPI.swift in Sources */,
 				1E7432F527FD271A00B908E4 /* KanbanTableCellData.swift in Sources */,
 				7380B0DB27FFC84F00B5D052 /* InspectorTableCellData.swift in Sources */,
 				1E7432E727FD269300B908E4 /* MainViewController.swift in Sources */,
+				73A166C2280661BE001E0299 /* HTTPMethod.swift in Sources */,
 				1EF029692802CAE3001AA033 /* InspectorViewControllerDelegate.swift in Sources */,
 				1E7432F727FD27B300B908E4 /* TableTitleView.swift in Sources */,
 				1E74322E27FA94AC00B908E4 /* AppDelegate.swift in Sources */,
 				7380B0E727FFFE6600B5D052 /* PopUpView.swift in Sources */,
+				73602E7528050E0D0029E792 /* CardData.swift in Sources */,
 				1E7432F127FD26DF00B908E4 /* KanbanTableViewDataSource.swift in Sources */,
 				1E74323027FA94AC00B908E4 /* SceneDelegate.swift in Sources */,
 				7380B0D927FFC84500B5D052 /* InspectorTableViewDataSource.swift in Sources */,
 				1E491FF6280407D400764EF8 /* KanbanColumnViewControllerDelegate.swift in Sources */,
 				1EF0291F27FEB9BD001AA033 /* KanbanType.swift in Sources */,
 				1E4920202804590600764EF8 /* PopUpViewController.swift in Sources */,
+				73602E7928051D180029E792 /* DataManager.swift in Sources */,
 				1EF0292927FFD4AE001AA033 /* ContainerViewController.swift in Sources */,
 				1EF0292127FEBE34001AA033 /* KanbanColumnViewController.swift in Sources */,
 				1EF029672802AA62001AA033 /* TitleView.swift in Sources */,
